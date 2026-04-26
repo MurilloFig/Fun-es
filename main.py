@@ -1,8 +1,8 @@
 import tkinter as tk
-from interface_fudida import InterfaceFudida
+from interface import Interface
 
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = InterfaceFudida(root)
+    app = Interface(root)
     root.mainloop()
